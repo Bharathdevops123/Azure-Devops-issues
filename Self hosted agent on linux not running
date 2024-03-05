@@ -1,0 +1,7 @@
+If Agent is not running after we close the putty session then we need to install svc.sh
+Go to Agent directory
+cd <Agent1>
+sudo ./svc.sh install
+sudo svc.sh start
+
+by this the agent will keep on running in the background even if we close the putty session
